@@ -2,24 +2,27 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
     <title>Jos's Resume</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/rwd.css">
+
 </head>
 
 <body>
     <!--head-->
-    <div id="header">
+    <section id="header">
         <h1>Hello! I'm He Min Yuan</h1>
-        <h2>DREAM OF BECOME A FULL-STACK DEVELPER<h2>
-                <div class="headicon">
-                    <a href="https://www.facebook.com/" class="facebook" target="_blank"><img src="images/iconfinder_social-facebook_216078.png" alt="facebook" height="50px" width="50px" target="_blank"></a>
-                    <a href="https://www.instagram.com/?hl=zh-tw" class="instagram" target="_blank"><img src="images/iconfinder_instagram_2639840.png" alt="instagram" height="50px" width="50px"></a>
-                    <a href="#" class="github" target="_blank"><img src="images/iconfinder_github_1220369.png" alt="" height="50px" width="50px"></a>
-                </div>
-    </div>
+        <h2>DREAM OF BECOME A FULL-STACK DEVELPER</h2>
+        <div class="head-icon">
+            <a href="https://www.facebook.com/" target="_blank"><i class="icon ion-logo-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=zh-tw" target="_blank"><i class="icon ion-logo-instagram"></i></a>
+            <a href="https://github.com/Arachild" target="_blank"><i class="icon ion-logo-github"></i></a>
+        </div>
+    </section>
     <!--nav-->
     <div id="navbar">
         <ul>
@@ -30,13 +33,13 @@
         </ul>
     </div>
     <!--content-->
-    <div id="content1">
+    <section id="content1">
         <div id="profile">
-            <h1>Profile</h1>
+            <h3>Profile</h3>
         </div>
         <div class="content1flex">
             <div class="photostickers">
-                <img src="images/sticker.png" alt="sticker">
+                <img src="images/photostickers.JPG" alt="photosticker">
             </div>
             <div class="introduce">
                 <p>
@@ -44,13 +47,12 @@
                     <p>2017年畢業於私立中原大學物理系，工作期間稍微接觸到WordPress平台覺得很有趣，再加上平時喜歡從事登山及水上活動。每一次的活動都有著不同的體驗與回憶，所以有了新的目標<em>建立一個屬於自己的網頁</em>，透過自己的雙手創作出屬於自己的網站並記錄分享這一切，也讓同好看到我的文章也能受益良多，因此我踏入了web領域。</p>
                     <p>自從踏入前端的領域短短的兩個月，大量的資源讓自學的我遇到問題時能找到解決辦法，經歷不斷的撰寫Code提升自己的語法能力，也能從中發現問題點並加以改善，但我深知這只是前端領域小小的一部份，前端技術日新月異使得我必須不斷得學習，透過網路資源、書籍持續培養前端的能力，當我選擇踏入這個領域時，即是困難重重也得向前邁進，因為<em>逆境促使人成長</em>。</p>
                     <p>在未來網路是不可或缺的科技，在畢業後這幾年慢慢地碰到前端技術，慢慢地了解到網頁，發現新的領域就跟海一樣一望無際，新技術不斷的誕生讓工程師更方便的撰寫，如何去從這片海中抓住趨勢重點學習，並持續地吸收新知識，唯有不斷的努力、不斷的奮鬥才會有所收穫及成長，希望自己在未來能成為<em>Full Stack Develper。</em></p>
-                    <br>
                     <p class="goodsentence">對於新的事物充滿著好奇心，渴望能學習這一切並加以應用在生活上。「人生就是不停的戰鬥」</p>
             </div>
         </div>
-    </div>
-    <div id="content2">
-        <h1 id="resume">Resume</h1>
+    </section>
+    <section id="content2">
+        <h3 id="resume">Resume</h3>
         <div class="education">
             <div class="title">Education</div>
             <div class="educationcontent">
@@ -61,32 +63,95 @@
         <div class="experience">
             <div class="title">Experience</div>
             <div class="educationcontent">
-                <h2>鉅鑫電信工程有限公司/工程師,2017/10~2018/04</h2>
+                <h2>鉅鑫電信工程有限公司/工程師<span>2017/10~2018/04</span></h2>
                 <p>畢業後的第一份工作，當時的我秉持著有東西學就去學的精神接下了這份工作，工作內容則是負責安裝電話、網路、網路電視等弱電工作，一開始的跟班學習都很順利，當我獨立出班跑Case時才意識到”看”跟”做”是兩回事，在實戰過後才更加了解到硬實力是經過不斷的訓練、實作及經驗慢慢堆起的。</p>
-                <h2>德宣有限公司/一般職員,2018/04~2019/04</h2>
+                <h2>德宣有限公司/品管人員<span>2018/04~2019/04</span></h2>
                 <p>踏入傳產的領域，對我來說可說是一項挑戰，在這裡必須要有隨時隨地的應變突發狀況，身為生產者必須隨時克服生產時所出現的問題，不管是對產品還是機器都要有一定的了解，身為品管者必須統計產品不良狀況、分析原因並做出適當的處理，再將其記錄並製作、改善生產標準流程。</p>
             </div>
         </div>
-    </div>
+    </section>
+    <section id="content3">
+        <h3 id="skills">Skills</h3>
+        <!-- default -->
+            <div class="clearfix">
 
-    <div id="content3">
-    	<h1 id="skills">Skills</h1>
-    </div>
-
-    <div id="content4">
-    	<h1 id="contact">Contact</h1>
-    </div>
-
-    <div id="footer">
-    	<div class="footericon">
-                    <a href="https://www.facebook.com/"  target="_blank"><img src="images/iconfinder_facebook_circle_color_107175.png" alt="facebook" height="50px" width="50px" target="_blank"></a>
-                    <a href="https://www.instagram.com/?hl=zh-tw"  target="_blank"><img src="images/iconfinder_Instagram_191275.png" alt="instagram" height="50px" width="50px"></a>
-                    <a href="#"  target="_blank"><img src="images/iconfinder_github_social_media_connect_2553370.png" alt="" height="50px" width="50px"></a>
+                <div class="c100 p70 big">
+                    <span><img src="images/iconfinder_badge-css-3_317756.png" alt="html"></span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
                 </div>
-    	<div>
-    		&#169; 2019 He Min Yuan.All rights reserved.
-    	</div>
+
+                <div class="c100 p50 big">
+                    <span><img src="images/iconfinder_badge-html-5_317755.png" alt="css"></span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+
+                <div class="c100 p30 big">
+                    <span><img src="images/iconfinder_code-programming-javascript-software-develop-command-language_652581.png" alt="js"></span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /default -->
+    </section>
+    <section id="content4">
+        <h3 id="contact">Contact</h3>
+
+        <div class="contact">
+            <div class="information">
+                <div class="information-p">Please feel free to contact me anytime.</div>
+                <div><i class="icon ion-md-pin"></i>Shulin Dist., New Taipei City 238, Taiwan (R.O.C.)</div>
+                <div><i class="icon ion-md-call"></i>+886 979086040</div>
+                <div><i class="icon ion-md-mail"></i>death8452@gmail.com</div>
+            </div>
+            <div class="form">
+                <form action="#" method="post" class="contact-form">
+                    <div>
+                        <div class="form-name">
+                            
+                            <input type="name"  id="name" placeholder="Joe" required>
+                        </div>
+                        <div class="form-phone">
+                            
+                            <input type="text"  id="phone" placeholder="979086040">
+                        </div>
+                        <div class="form-mail">
+                            
+                            <input type="mail"  id="mail" placeholder="death8452@gmail.com" required>
+                        </div>
+                        <div class="form-message">
+                            
+                            <textarea name="form-message" placeholder="message"></textarea>
+                        </div>
+                        <div class="form-btn">
+                        <input type="submit" value="Send it!">
+                    </div>
+                    </div>
+                    
+                </form>
+            </div>
+
+        </div>
+    </section>
     </div>
+    <section id="footer">
+        <div class="footericon">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/iconfinder_facebook_circle_color_107175.png" alt="facebook" height="50px" width="50px" target="_blank"></a>
+            <a href="https://www.instagram.com/?hl=zh-tw" target="_blank"><img src="images/iconfinder_Instagram_191275.png" alt="instagram" height="50px" width="50px"></a>
+            <a href="#" target="_blank"><img src="images/iconfinder_github_social_media_connect_2553370.png" alt="" height="50px" width="50px"></a>
+            <div>
+                &#169; 2019 He Min Yuan.All rights reserved.
+            </div>
+    </section>
+    
     <script src="js/fixbar.js"></script>
     <!--固定bar-->
 </body>
