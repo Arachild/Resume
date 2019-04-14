@@ -1,12 +1,49 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+/** {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}*/
+
 body {
     margin: 0;
+    padding: 0;
     font-family: Noto Sans TC, Times New Roman, sans-serif;
+    font-size: 20px;
+
 }
 
 em {
     color: blue;
+}
+
+h3 {
+    padding: 50px 30px 50px 30px;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 180%;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+h3:after {
+    border-bottom: 3px solid orange;
+    content: '';
+    display: block;
+    width: 10%;
+    margin: 20px auto;
+
+
+}
+
+
+
+#header,
+#content1,
+#content2 {
+    text-align: center;
+    min-height: 100vh;
 }
 
 /*header*/
@@ -18,34 +55,43 @@ em {
     background-size: cover;
     overflow: hidden;
     text-align: center;
-
-}
-
-#header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     color: white;
+
 }
 
+.head-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-
-.facebook,
-.instagram,
-.github {
-    height: 50px;
-    width: 50px;
+.head-icon a {
     color: white;
     border: 1px solid;
-    border-radius: 50%;
     display: inline-block;
-    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    line-height: 50px;
+    font-size: 200%;
+    transition: color 0.5s, background-color 0.5s;
 }
 
-.headicon a:hover {
+
+
+.head-icon a:hover {
     background-color: white;
+    color: black;
 }
+
+
+
+
 
 /*navbar*/
 
@@ -57,8 +103,8 @@ em {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky+.content {
-    padding-top: 60px;
+.sticky+#content1 {
+    padding-top: 50px;
 }
 
 #navbar {
@@ -82,16 +128,19 @@ em {
     list-style-type: none;
     display: inline-block;
     padding: 14px 20px;
-    font-size: 20px;
+    font-size: 100%;
+    transition: border-bottom 0.2s;
 }
 
 #navbar li a {
     text-decoration: none;
     color: black;
+    transition: color 0.4s;
+
 }
 
 #navbar li:hover {
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid orange;
 
 }
 
@@ -101,31 +150,36 @@ em {
 
 /*content*/
 
-#content1,#content2,#content3,#content4 {
-    text-align: center;
-    height: 100vh;
 
-}
 
-#profile, #resume, #skills, #contact {
-    padding: 60px 50px 60px 50px;
-    box-sizing: border-box;
-    
-}
 
 .content1flex {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 0;
-    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;    
+    justify-content: center;
+    
 }
 
 .photostickers {
-    max-width: 100%;
+    min-height: 400px;
+    max-width: 30%;
+    align-self: center;
+}
+
+
+.photostickers img {    
+    width: 100%;
     height: auto;
+    transform:rotate(90deg);
+    border-radius: 20px;
+    overflow: hidden;
+    
+
+
 }
 
 .introduce {
@@ -133,13 +187,11 @@ em {
     text-align: left;
     letter-spacing: 0.1em;
     line-height: 1.5em;
-    font-size: 18px;
+    font-size: 90%;
     font-family: Noto Sans TC;
     max-width: 70%;
-    margin: 0 auto;
-
-
-}
+    margin:  auto;
+    }
 
 .goodsentence {
     font-weight: bold;
@@ -149,65 +201,156 @@ em {
 /*content2*/
 
 #content2 {
-	background-color: #d9d9d9;
+    background-color: #F0F0F0;
+}
+
+#content2 p{
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
 }
 
 #content2 h2 {
-	color: #3399ff;
+    color: #e67300;
 
-    }
+}
 
 
 
-.education, .experience {
-	display: flex;
+.education,
+.experience {
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;    
+    flex-wrap: nowrap;
     align-items: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 .educationcontent {
-	text-align: justify;
-	width: 75%;    
+    text-align: justify;
+    width: 75%;
     letter-spacing: 0.1em;
     line-height: 1.5em;
-    font-size: 18px;
+    font-size: 90%;
     font-family: Noto Sans TC;
-    
-    
+
+
 }
 
 .title {
-	font-weight: bold;
-	font-size: 35px;
-	width: 20%;
-	align-self: flex-start;
+    font-weight: bold;
+    font-size: 200%;
+    width: 20%;
+    align-self: flex-start;
 }
 
 /*content3*/
+#skills {
+    padding: 50px 30px 30px 30px;
+}
+
+
+#content3 {
+    height:500px;
+}
+
 
 /*content4*/
 #content4 {
-	background-color: #d9d9d9;
+    background-color: #F0F0F0;
+    height: auto;
 }
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form {
+    
+    margin-right: 5%;
+}
+
+.information {
+    margin-left: 5%
+}
+
+.information div {
+
+    margin: 20px;
+}
+
+.information-p {
+    font-size: 20px;
+    word-spacing: 0.25em;
+    color: #ff8533;
+
+}
+
+.information i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+#name, #phone, #mail {
+    width: 500px;
+    height: 26px;
+    margin-bottom: 10px;
+    border: 2px solid #636363;
+}
+
+
+
+.form-message textarea {
+    border: 2px solid #636363;
+    width: 500px;
+    height: 100px;
+}
+
+.form-btn {
+
+}
+
+.form-btn input[type="submit"]{
+    display: inline-block;
+    outline: none;
+    padding: 0.5em 0.5em;
+    color: #fff;
+    background: #539fd6;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.95em;    
+    width: 20%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+    float: right;
+    transition: background-color 0.5s;
+    
+}
+
+.form-btn input[type="submit"]:hover {
+    background: #333;}
+
 
 /*footer*/
 #footer {
-	
-	background-color: ;
-	text-align: center;
-	font-size: 18px;
+
+    background-color: ;
+    text-align: center;
+    font-size: 90%;
+    height: 100px;
 }
 
 .footericon {
-	padding: 10px;
-	box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .footicon ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
+

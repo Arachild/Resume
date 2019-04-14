@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+
+    .title {
+        margin-right: 12px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    body {
+        min-width: 1200px;
+        font-size: 20px;
+    }
+
+
+    #navbar {
+        display: none;
+    }
+
+    .content1flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        justify-content: center;
+
+    }
+
+    .photostickers {
+        max-width: 50%;
+        align-self: center;
+        margin-top: 50px;
+    }
+
+
+    .photostickers img {
+        width: 100%;
+        height: auto;
+    }
+
+    .education,
+    .experience {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 100%;
+        font-size: 110%;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .educationcontent,
+    .experiencecontent {
+        width: 100%;
+    }
+
+
+
+    .educationcontent span {
+        float: right;
+    }
+
+    .introduce h1 {
+        text-align: center;
+    }
+
+    .introduce {
+
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+        font-size: 110%;
+        font-family: Noto Sans TC;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        text-align: justify;
+    }
+
+    #content2 p {
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form,
+    .information {
+        margin: auto;
+    }
+
+    .form {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 25px;
+    }
+
+    .head-icon {
+        font-size: 70%;
+    }
+
+    .form {
+        min-width: 630px;
+    }
+
+    .form-message textarea {
+        width: 100%;
+    }
+
+    #name,
+    #phone,
+    #mail {
+        width: 100%;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 30px;
+    }
+
+    .head-icon {
+        font-size: 50%;
+    }
+
+    .form {
+        min-width: 630px;
+    }
+
+    .form-message textarea {
+        width: 100%;
+    }
+
+    #name,
+    #phone,
+    #mail {
+        width: 100%;
+    }
