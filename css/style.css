@@ -177,11 +177,7 @@ h3:after {
     height: auto;
     transform:rotate(90deg);
     border-radius: 20px;
-    overflow: hidden;
-    
-
-
-}
+    overflow: hidden;}
 
 .introduce {
     text-align: justify;
@@ -278,9 +274,6 @@ h3:after {
     margin-left: 5%
 }
 
-.educationcontent span {
-        float: left;
-    }
 
 .information div {
 
