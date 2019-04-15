@@ -300,19 +300,19 @@ h3:after {
     height: 26px;
     margin-bottom: 10px;
     border: 2px solid #636363;
+    border-radius: 5px;
 }
 
 
 
 .form-message textarea {
     border: 2px solid #636363;
+    border-radius: 5px;
     width: 500px;
     height: 100px;
 }
 
-.form {
 
-}
 
 .form-btn input[type="submit"]{
     display: inline-block;
