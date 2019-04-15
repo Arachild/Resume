@@ -11,7 +11,7 @@ body {
     padding: 0;
     font-family: Noto Sans TC, Times New Roman, sans-serif;
     font-size: 20px;
-    min-width: 1200px;
+    
 
 }
 
@@ -166,7 +166,7 @@ h3:after {
 }
 
 .photostickers {
-    min-height: 400px;
+    
     max-width: 30%;
     align-self: center;
 }
@@ -253,7 +253,7 @@ h3:after {
 
 
 #content3 {
-    height:500px;
+    height:auto;
 }
 
 
@@ -310,7 +310,7 @@ h3:after {
     height: 100px;
 }
 
-.form-btn {
+.form {
 
 }
 
