@@ -278,6 +278,10 @@ h3:after {
     margin-left: 5%
 }
 
+.educationcontent span {
+        float: left;
+    }
+
 .information div {
 
     margin: 20px;

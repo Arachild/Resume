@@ -107,6 +107,9 @@
         margin-bottom: 10px;
     }
 
+
+
+
 }
 
 
@@ -124,6 +127,11 @@
 
     .educationcontent h2 {
         font-size: 120%;
+        
+    }
+
+    .educationcontent p {
+        margin-top: 30px;
     }
 
     .form {
@@ -163,6 +171,10 @@
         font-size: 0.6em;
     }
 
+    h3:after {
+    
+    width: 30%;
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -171,12 +183,12 @@
     }
 
     .head-icon {
-        font-size: 60%;
+        font-size: 100%;
 
     }
 
     .educationcontent h2 {
-        font-size: 95%;
+        font-size: 110%;
     }
 
     .head-icon a {
@@ -202,9 +214,7 @@
         height: 50px;
         padding: 10px;
     }
-
-
-    .information div {}
+  
 
 
     .form-btn input {
@@ -215,6 +225,14 @@
         font-size: 0.4em;
     }
 
+
+h3:after {
+    
+    width: 30%;
+    
+
+
+}
 
 
 
