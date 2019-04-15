@@ -123,11 +123,11 @@
         font-size: 70%;
     }
 
-    
+
 
     .educationcontent h2 {
         font-size: 120%;
-        
+
     }
 
     .educationcontent p {
@@ -172,68 +172,72 @@
     }
 
     h3:after {
-    
-    width: 30%;
 
-}
-
-@media only screen and (max-width: 480px) {
-    body {
-        font-size: 15px;
-    }
-
-    .head-icon {
-        font-size: 100%;
+        width: 30%;
 
     }
 
-    .educationcontent h2 {
-        font-size: 110%;
+    @media only screen and (max-width: 480px) {
+        body {
+            font-size: 15px;
+        }
+
+        .head-icon {
+            font-size: 100%;
+
+        }
+
+        #header h2 {
+           padding: 5px;
+        }
+
+        .educationcontent h2 {
+            font-size: 110%;
+        }
+
+        .head-icon a {
+
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+        }
+
+        .form {
+            width: 90%;
+        }
+
+        .form-message textarea {
+            width: 90%;
+            padding: 10px;
+        }
+
+        #name,
+        #phone,
+        #mail {
+            width: 90%;
+            height: 50px;
+            padding: 10px;
+        }
+
+
+
+        .form-btn input {
+            margin-right: 10px;
+        }
+
+        .form-btn input[type="submit"] {
+            font-size: 0.4em;
+        }
+
+
+        h3:after {
+
+            width: 30%;
+
+
+
+        }
+
+
+
     }
-
-    .head-icon a {
-
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-    }
-
-    .form {
-        width: 90%;
-    }
-
-    .form-message textarea {
-        width: 90%;
-        padding: 10px;
-    }
-
-    #name,
-    #phone,
-    #mail {
-        width: 90%;
-        height: 50px;
-        padding: 10px;
-    }
-  
-
-
-    .form-btn input {
-        margin-right: 10px;
-    }
-
-    .form-btn input[type="submit"] {
-        font-size: 0.4em;
-    }
-
-
-h3:after {
-    
-    width: 30%;
-    
-
-
-}
-
-
-
-}
