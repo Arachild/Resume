@@ -26,6 +26,7 @@ h3 {
     font-size: 180%;
     text-align: center;
     padding-bottom: 0;
+    outline: none;
 }
 
 h3:after {
@@ -88,6 +89,10 @@ h3:after {
 .head-icon a:hover {
     background-color: white;
     color: black;
+}
+
+#profile h3 {
+    outline: none;
 }
 
 
