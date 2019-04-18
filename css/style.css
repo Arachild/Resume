@@ -175,14 +175,16 @@ h3:after {
 .photostickers {
     
     max-width: 30%;
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
 }
 
 
 .photostickers img {    
     width: 100%;
     height: auto;
-    transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+            transform:rotate(90deg);
     border-radius: 20px;
     overflow: hidden;}
 
