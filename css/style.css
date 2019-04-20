@@ -11,7 +11,7 @@ body {
     padding: 0;
     font-family: Noto Sans TC, Times New Roman, sans-serif;
     font-size: 20px;
-    
+
 
 }
 
@@ -37,6 +37,23 @@ h3:after {
     margin: 20px auto;
 
 
+}
+
+/*----------------------------*/
+/*ANIMATED*/
+/*----------------------------*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
 }
 
 
@@ -167,26 +184,28 @@ h3:after {
     flex-wrap: nowrap;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;    
+    margin-top: 5%;
     justify-content: center;
-    
+
 }
 
 .photostickers {
-    
+
     max-width: 30%;
     -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
+
 }
 
 
-.photostickers img {    
+.photostickers img {
     width: 100%;
     height: auto;
-    -webkit-transform:rotate(90deg);
-            transform:rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
     border-radius: 20px;
-    overflow: hidden;}
+    overflow: hidden;
+}
 
 .introduce {
     text-align: justify;
@@ -196,8 +215,8 @@ h3:after {
     font-size: 90%;
     font-family: Noto Sans TC;
     max-width: 70%;
-    margin:  auto;
-    }
+    margin: auto;
+}
 
 .goodsentence {
     font-weight: bold;
@@ -210,7 +229,7 @@ h3:after {
     background-color: #F0F0F0;
 }
 
-#content2 p{
+#content2 p {
     letter-spacing: 0.1em;
     line-height: 1.5em;
 }
@@ -258,7 +277,7 @@ h3:after {
 
 
 #content3 {
-    height:auto;
+    height: auto;
 }
 
 
@@ -275,7 +294,7 @@ h3:after {
 }
 
 .form {
-    
+
     margin-right: 5%;
 }
 
@@ -301,7 +320,9 @@ h3:after {
     font-size: 25px;
 }
 
-#name, #phone, #mail {
+#name,
+#phone,
+#mail {
     width: 500px;
     height: 26px;
     margin-bottom: 10px;
@@ -320,7 +341,7 @@ h3:after {
 
 
 
-.form-btn input[type="submit"]{
+.form-btn input[type="submit"] {
     display: inline-block;
     outline: none;
     padding: 0.5em 0.5em;
@@ -328,18 +349,19 @@ h3:after {
     background: #539fd6;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 0.95em;    
+    font-size: 0.95em;
     width: 20%;
     margin-bottom: 10px;
     margin-top: 10px;
     border: none;
     float: right;
     transition: background-color 0.5s;
-    
+
 }
 
 .form-btn input[type="submit"]:hover {
-    background: #333;}
+    background: #333;
+}
 
 
 /*footer*/
@@ -360,4 +382,3 @@ h3:after {
     margin: 0;
     padding: 0;
 }
-

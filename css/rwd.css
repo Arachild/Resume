@@ -37,7 +37,7 @@
     .photostickers {
         max-width: 50%;
         -ms-grid-row-align: center;
-            align-self: center;
+        align-self: center;
         margin-top: 50px;
     }
 
@@ -195,7 +195,8 @@
             flex-direction: column;
             justify-content: center;
             align-content: center;
-            color: white;}
+            color: white;
+        }
 
         #header:before {
             content: '';
@@ -271,4 +272,5 @@
 
 
 
-    }}
+    }
+}
